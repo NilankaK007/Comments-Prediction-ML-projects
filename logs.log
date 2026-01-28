@@ -1,0 +1,19 @@
+2026-01-27 23:09:00,782 - INFO - Flask server started
+2026-01-27 23:09:11,475 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-27 23:09:11,476 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-27 23:11:51,302 - INFO - *** open home page****
+2026-01-27 23:13:12,677 - INFO - 127.0.0.1 - - [27/Jan/2026 23:13:12] "GET / HTTP/1.1" 200 -
+2026-01-27 23:13:23,692 - INFO - 127.0.0.1 - - [27/Jan/2026 23:13:23] "GET /static/css/main.css HTTP/1.1" 200 -
+2026-01-27 23:13:24,702 - INFO - 127.0.0.1 - - [27/Jan/2026 23:13:24] "GET /static/products/product1.jpg HTTP/1.1" 200 -
+2026-01-27 23:13:26,904 - INFO - 127.0.0.1 - - [27/Jan/2026 23:13:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-27 23:14:27,969 - INFO - Text: great
+2026-01-27 23:14:46,077 - INFO - Preprossed text: 0    great
+Name: tweet, dtype: object
+2026-01-27 23:14:46,638 - INFO - Vectorized text: [[0. 0. 0. ... 0. 0. 0.]]
+2026-01-27 23:14:49,344 - INFO - prediction: Positive
+2026-01-27 23:14:49,741 - INFO - 127.0.0.1 - - [27/Jan/2026 23:14:49] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-27 23:14:49,796 - INFO - *** open home page****
+2026-01-27 23:14:49,937 - INFO - 127.0.0.1 - - [27/Jan/2026 23:14:49] "GET / HTTP/1.1" 200 -
+2026-01-27 23:14:50,603 - INFO - 127.0.0.1 - - [27/Jan/2026 23:14:50] "[36mGET /static/products/product1.jpg HTTP/1.1[0m" 304 -
+2026-01-27 23:14:50,604 - INFO - 127.0.0.1 - - [27/Jan/2026 23:14:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
